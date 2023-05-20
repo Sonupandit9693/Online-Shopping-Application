@@ -68,3 +68,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+// client .env setup{
+ REACT_APP_STRIPE_APP_KEY=1f38c2f4c6152929034cbe904b9d964b3912546563720a9ef50aab7db7d91db4bcedd4d2bf1d53ac5862d100e6879c6d9bcb0571db73572eea6d47f6fa19ed3cfe0572b2c4407e257d0a690f762c206d06668bdafbdf0f90b683f6f5447e0f7c921d95102454d7c66039190c3b63e03ae873d7588fe3a2996357e676f0db91ef
+
+REACT_APP_STRAPI_PUBLISHABLE_KEY=pk_test_51MbJ3hSGvDt3vL1dAPAvLO8TAynZ8ii87mt6STONbOoEOGvnHL1dEbh528DeNbpUMazACzhvNuF83RnLJcG3ZGHL00d0UaQTyU
+
+REACT_APP_DEV_URL=http://localhost:1337
+}
+
+// api .env setup{
+    HOST=0.0.0.0
+PORT=1337
+APP_KEYS=0SvpVSfkh2c94v3ErBPlbg==,tF7dw6wVvxTJpvqqwX0B9w==,hPggp8zCzUeUxfzVoW3KyQ==,UN/IfZV6gk4cENObiusZaw==
+API_TOKEN_SALT=apXtjK1AA55U2+WAfgMrRw==
+ADMIN_JWT_SECRET=SBQlKukhGNRX+Za3IIcgIg==
+TRANSFER_TOKEN_SALT=O1tg+03xQ5aqWn5Np6WRAg==
+# Database
+DATABASE_CLIENT=sqlite
+DATABASE_FILENAME=.tmp/data.db
+JWT_SECRET=+FtTES4R4Cm3zXLVfkADMw==
+
+STRIPE_KEY=sk_test_51MbJ3hSGvDt3vL1d17RSTUOvX1XbGPc11xZLKRza1zlfjbsxYSjcThlO2hMCYEjXz2o8niuK7eoLGVZR0kGs8FWU00HjAPGKud
+
+CLIENT_URL=http://localhost:3000
+}
